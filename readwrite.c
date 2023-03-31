@@ -94,20 +94,6 @@ void *writer(void *arg)
     return NULL;
 }
 
-// int main(int argc, char *argv[])
-// {
-//     int num_readers, num_writers;
-//     pthread_t reader_threads[NUM_READERS];
-//     pthread_t writer_threads[NUM_WRITERS];
-//     int reader_ids[NUM_READERS];
-//     int writer_ids[NUM_WRITERS];
-//     int i;
-//     FILE *fp;
-
-//     // parse command line arguments for number of readers and writers
-//     if (argc != 4)
-//     {
-//         printf("Usage: %s <num_readers
 int main(int argc, char *argv[])
 {
     int num_readers, num_writers;
